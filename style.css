@@ -1,0 +1,56 @@
+*{
+	margin:0;
+	padding:0;
+	background:#272629;
+	color:white;
+	box-sizing:border-box;
+}
+.name{
+	font-family:gabriola;
+	color:white;
+	width:300px;
+	margin:auto;
+}
+.cal{
+	margin:auto;
+	display:grid;
+	grid-template-columns:repeat(4,50px);
+	width:250px;
+	padding:20px;
+}
+.c_i{
+	padding:15px 30px;
+}
+.total{
+	padding:15px 30px;
+}
+.res{
+	grid-column: 1/-1;
+	font-size:30px;
+	width: 213px;
+	border:1px solid white;
+	height: 50px;
+	transform: skewX(10deg) translateX(-4px);
+	text-align:right;
+	padding:0px 10px;
+}
+.clear{
+	grid-column: 1/3;
+	height: 50px;
+	text-align:center;
+	padding:15px 30px;
+}
+.o_c{
+	grid-column: 3/5;
+	width:114px;
+	height: 50px;
+	text-align:center;
+	padding:15px 30px !important;
+}
+
+
+
+
+
+
+
